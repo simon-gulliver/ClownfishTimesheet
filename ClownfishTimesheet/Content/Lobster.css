@@ -1,0 +1,19 @@
+﻿@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(../Content/yQOMOX5hR0-6LTD879t-PQ.png) format('woff2'), url(../Content/JEgmtEDzc-IH8jBshQXrYA.woff) format('woff');
+}
+/* this isn't used, so original URLs are kept
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(http://fonts.gstatic.com/s/cabin/v7/82B-3YlzWJm8zbCrVEmc_vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/cabin/v7/haOjnueK8Or1ztuuRtr8dvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}*/
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(../Content/cycBf3mfbGkh66G5NhszPQ.png) format('woff2'), url(../Content/MWVf-Rwh4GLQVBEwbyI61Q.woff) format('woff');
+}

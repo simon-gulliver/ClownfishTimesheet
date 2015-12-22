@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<!--<html manifest="../Manifest/Manifest" type="text/cache-manifest">-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/style")
+</head>
+<body>
+
+    <div id="wrap" class="container clearfix top">
+        @RenderBody()
+        <div class="push"></div>
+    </div>
+
+    <footer class="footer">
+        <p>version: <span id="version">1.0.0</span></p>
+    </footer>
+
+   @Scripts.Render("~/bundles/scripts")
+   
+</body>
+</html>

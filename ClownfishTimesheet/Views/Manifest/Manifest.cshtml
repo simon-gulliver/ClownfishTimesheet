@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutManifest.cshtml";
+    Response.ContentType = "text/cache-manifest";
+    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    Response.Cache.SetExpires(DateTime.MinValue);
+    Response.Cache.SetValidUntilExpires(false); 
+    Response.Charset = System.Text.Encoding.UTF8.WebName;
+}
+#Version: @ViewBag.Version 
+
+CACHE:
+@for (var i = 0; i < @ViewBag.Refs.Count; i++)
+{
+    @Html.Raw(@ViewBag.Refs[i] + "\r\n");
+}
+  

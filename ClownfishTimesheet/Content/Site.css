@@ -1,0 +1,92 @@
+﻿html, body {
+  height: 100%;
+  padding-left: 5px;
+  background-color:darkseagreen;
+}
+
+.lobster {
+    font-family:Cabin Regular;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -4em;
+}
+
+#main {
+  width:auto;
+  padding-bottom:20px; /* this needs to be bigger than footer height*/
+}
+
+.footer, .push {
+    height: 4em;
+}
+h1, h2, h3,
+h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left:0px;
+}
+
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+    display: inline;
+}
+
+.drop {
+    margin-top: 10px;
+    margin-left:1px;
+}
+
+.datewidth {
+    width:200px;
+}
+
+#page1 {
+    width: 100%;
+}
+
+#activities {
+    color: black;
+}
+
+select:active, select:hover {
+    outline-color: grey
+}
+
+.timetable {
+    padding: 2px;
+    width: 100%;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.timetable th {
+    padding: 2px;
+    width: 20%;
+}
+
+.selectImg {
+    width:22px;
+    height:22px;
+    margin-left: 10px;
+}
+
+
+.inputerror{
+	border:1px solid red!important;
+}
+
+
+
